@@ -44,3 +44,25 @@ else: # s'éxécute si la boucle n'a pas été interrompue
     print("pas de break")
 
 
+
+a=3
+if a==3:
+    # todo: code for a==3
+    pass
+
+
+print(50*"-")
+
+
+
+
+value = 12
+
+
+match value:
+    case 10:
+        print(10)
+    case 12 | 13 | 14:
+        print("12 | 13 | 14")
+    case _:
+        print("default")
