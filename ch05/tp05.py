@@ -1,7 +1,7 @@
 l = ["Valeur 01", "Valeur 02", "Valeur 03", "Valeur 04"]
 
-for pos,item in enumerate(l):
-    print(pos,item)
+for pos, item in enumerate(l):
+    print(pos, item)
 
 
 d = {
@@ -13,7 +13,7 @@ d = {
 }
 
 for key in d:
-    print(key,d[key])
+    print(key, d[key])
 
 keys = d.keys()
 print(keys)
@@ -21,5 +21,9 @@ print(keys)
 values = d.values()
 print(values)
 
-for key,value in d.items():
-    print(key,value)
+for key, value in d.items():
+    print(key, value)
+
+d["firstname"] = "Fred"
+
+print(d)
