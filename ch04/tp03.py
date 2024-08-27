@@ -57,3 +57,32 @@ the_function()
 print("after the_function()")
 print(a)
 print(50*'-')
+
+
+def hello(name,firstname,age=22):
+    print("Hello "+name+" "+firstname+" "+str(age))
+
+hello("GAURAT","Frédéric",age=48)
+hello(firstname="Frédéric",name="GAURAT")
+
+print(50*'-')
+
+def add(*l):
+    print(l)
+    r = 0
+    for i in l:
+        # r = r +i
+        r += i
+
+    return r
+
+# l = [1,2,3,4,5]
+# r = add(l)
+# print(r) # 15
+
+
+r = add(1,2,3,4,5)
+print(r) # 15
+
+
+print("toto","titi",34,False,sep=";")
