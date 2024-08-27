@@ -14,7 +14,7 @@ the_world_is_flat = True # False
 s = "toto"# 'toto'
 i = 22
 
-d = 1
+d = 1.2
 
 print(the_world_is_flat)
 
@@ -33,8 +33,10 @@ print("La fin")
 
 a = 17/3
 b = 17//3
+c = 2**2
 print(a)
 print(b)
+print(c)
 
 
 
@@ -57,6 +59,7 @@ La fin
 
 print(s2)
 
+t = "2"+3
 
 print("-"*50)
 a=2

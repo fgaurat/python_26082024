@@ -4,7 +4,8 @@ for item in l:
     print(item)
 
 
-for i in range(3,15,2):
+for i in range(15):
+# for i in range(3,15,2):
     print(i)
 
 
@@ -14,7 +15,8 @@ for i in range(3,15,2):
 # 3 Valeur 04
 
 for i in range(len(l)):
-    print(str(i)+" "+l[i])
+    # print(str(i)+" "+l[i])
+    print(i,l[i])
 
 
 r = range(5) # [0,1,2,...]
@@ -58,7 +60,7 @@ print(50*"-")
 
 value = 12
 
-
+# Dispo à partir de python 3.10
 match value:
     case 10:
         print(10)
