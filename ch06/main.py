@@ -5,9 +5,9 @@
 
 from fibo import fib as ffib
 import sys
-sys.path.append("/Users/fgaurat/local_dev/formations/python_26082024")
-import ledossier.lemodule
-
+# sys.path.append("/Users/fgaurat/local_dev/formations/python_26082024")
+# import ledossier.lemodule
+from ..ledossier import lemodule
 
 def fib(a):
     print("Fib", a)
