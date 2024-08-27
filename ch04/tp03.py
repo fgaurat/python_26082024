@@ -122,7 +122,38 @@ print(*c) # unpack
 print(3,4) # unpack
 
 
-def hello(name,firstname,age=22):
-    print("Hello "+name+" "+firstname+" "+str(age))
+def hello(**kwargs): # keyword arguments
+    print(kwargs) # dict
+    print(kwargs['firstname'])
+    print(kwargs['name'])
 
 
+hello(firstname="Frédéric",name="GAURAT")
+
+i =2
+s = 'toto'
+
+l = [1,2,3,4]
+
+d = {
+    'firstname': 'Frédéric', 
+    'name': 'GAURAT'
+    }
+
+print(l[1])
+print(d['firstname'])
+
+
+
+l = ["admin","12345"]
+
+login = l[0]
+passw = l[1]
+
+d = {
+    "login":"admin",
+    "passw":"12345",
+}
+
+login = d["login"]
+passw = d["passw"]
