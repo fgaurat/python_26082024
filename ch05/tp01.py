@@ -65,5 +65,24 @@ l = [1, 2, 3]
 d = deque(l)
 print(l)
 print(d)
-d.appendleft(-1 )
+d.appendleft(-1)
 print(d)
+print(50*"-")
+
+# scolaire, 3 lignes
+squares = []
+for x in range(10):
+    squares.append(x**2)
+print(squares)
+a = 2  # 1 ligne
+
+squares = list(map(lambda x: x**2, range(10)))
+print(squares)
+
+squares = [x**2 for x in range(10)]
+print(squares)
+
+
+dirty_list = ["   ligne 01", "   ligne 02   ", "ligne 03  "]
+clean_list = [l.strip() for l in dirty_list]
+print(clean_list)
