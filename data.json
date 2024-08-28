@@ -1,1 +1,14 @@
-[{"name": "GAURAT", "firstname": "Fred"}, {"name": "MARTIN", "firstname": "Jean"}, {"name": "DURAND", "firstname": "Louis"}]
+[
+    {
+        "name": "GAURAT",
+        "firstname": "Fred"
+    },
+    {
+        "name": "MARTIN",
+        "firstname": "Jean"
+    },
+    {
+        "name": "DURAND",
+        "firstname": "Louis"
+    }
+]

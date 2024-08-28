@@ -32,6 +32,7 @@ def main():
     print(l)
     with open('data.json','w') as f:
         json.dump(l,f)
+        # json.dump(l,f,indent=4)
     
     with open('data.json','r') as f:
         l2 = json.load(f)
