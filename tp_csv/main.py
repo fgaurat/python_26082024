@@ -1,5 +1,7 @@
 from pprint import pprint
 import json
+
+
 # convertir customers.csv -> customers.json
 
 # id,first_name,last_name,email,gender,ip_address
@@ -19,15 +21,15 @@ import json
 # ]
 
 
-l = ["toto",'titi']
+# l = ["toto",'titi']
 
-for i in l:
-    print(i)
+# for i in l:
+#     print(i)
 
-[i for i in l] #comprehension list
+# [i for i in l] #comprehension list
 
-a = 2
-l = [1,2,3]
+# a = 2 
+# l = [1,2,3]
 
 def main():
     
