@@ -25,3 +25,8 @@ class Rectangle:
     
     def __eq__(self, value: object) -> bool:
         return self.__longueur ==  value.__longueur and self.__largeur ==  value.__largeur
+    
+    def __str__(self) -> str:
+        largeur = self.__largeur
+        longueur = self.__longueur 
+        return f"{__class__.__name__} {longueur=}, {largeur=}"

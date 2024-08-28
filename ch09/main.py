@@ -1,4 +1,5 @@
 from Rectangle import Rectangle
+from Carre import Carre
 
 def main():
     r = Rectangle(4,3)
@@ -25,7 +26,12 @@ def main():
     else:
         print("ko")
 
+    s = str(r)
+    print(s)
 
+    print(50*'-')
+    c = Carre(2)
+    print(c.get_surface())
 
 if __name__ == '__main__':
     main()
