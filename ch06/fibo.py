@@ -30,5 +30,7 @@ def main():
     print("END TEST")
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": # éxécution
     main()
+
+    

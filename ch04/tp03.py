@@ -88,8 +88,12 @@ l = [1,2,3,4,5]
 r = add(*l) # add(1,2,3,4,5)
 print(r) # 15
 
+a = 1 # écriture, affectation de a 
+b = a # lecture de a
+
 
 r = add(1,2,3,4,5)
+r = add(1,2,3,4,5,56,76)
 print(r) # 15
 
 
@@ -122,6 +126,7 @@ print(*c) # unpack
 print(3,4) # unpack
 
 
+# par keywords en nombre variable
 def hello(**kwargs): # keyword arguments
     print(kwargs) # dict
     print(kwargs['firstname'])
