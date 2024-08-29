@@ -22,7 +22,9 @@ def main():
     # print(sys.version_info.minor)
     # print(sys.version_info.micro)
 
-
+    # dao.findAll() []Customer
+    # dao.findByName("DURAND") Customer
+    # dao.save(c)
 
 if __name__ == '__main__':
     main()
