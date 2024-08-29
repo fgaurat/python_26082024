@@ -18,7 +18,7 @@ def main():
     # except ValueError as e:
     #     print("=>",e)
     #     traceback.print_exc()
-    except Exception as e:
+    except Exception as e:# intercepte Exception ou une de ses filles
         print("=>",e)
         traceback.print_exc()
     else:

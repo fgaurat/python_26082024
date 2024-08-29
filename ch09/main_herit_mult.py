@@ -26,7 +26,8 @@ class D(B,C):
 def main():
     d = D()
     d.show()
-    print(D.mro())
+    print(D.mro()) # method resolution order
+    # [D,B,C,A]
 
 if __name__ == '__main__':
     main()

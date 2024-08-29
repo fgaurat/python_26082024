@@ -23,9 +23,11 @@ class Rectangle:
     def get_surface(self):
         return self.__largeur*self.__longueur
     
+    # redéfinition de l'opérateur ==
     def __eq__(self, value: object) -> bool:
         return self.__longueur ==  value.__longueur and self.__largeur ==  value.__largeur
     
+    # redéfinition de la convertion de type
     def __str__(self) -> str:
         largeur = self.__largeur
         longueur = self.__longueur 

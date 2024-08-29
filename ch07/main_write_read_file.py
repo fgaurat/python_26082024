@@ -7,7 +7,7 @@ def main():
         # f.write('Hello\n')
         print("Hello",file=f)
 
-    
+    # context manager
     with open('hello.txt','r') as f: # mode read (lecture)
 
         # content = f.read() # chargement dans un scalaire, chargement complet en mémoire

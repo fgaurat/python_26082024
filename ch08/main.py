@@ -14,9 +14,9 @@ def call_divi(a,b):
     try:
         print("OPEN FILE")
         r = divi(a,b)
-    except Exception as e:
-        print("call_divi",e)
-        raise e
+    # except Exception as e:
+    #     print("call_divi",e)
+    #     raise e
     finally:        
         print("CLOSE FILE")
     return r
